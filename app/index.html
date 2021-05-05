@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<title>Уроки английского в скайпе для детей - AllRight.com</title>-->
+    <!--<link rel="shortcut icon" type="image/png" href="{{rootURL}}assets/images/favicon.ico"/>-->
+    <!--<meta name="description" content="Уроки английского для детей 4-13 лет в скайпе">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" id="site-manifest-json" src="{{rootURL}}manifest.json">
+    <meta name="theme-color" content="#3b3971">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    {{content-for "head"}}
+
+    <meta property="fb:app_id" content="266042880087910">
+
+    <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/frontend.css">
+
+    <script src="{{rootURL}}assets/vendor.js" defer></script>
+    <script src="{{rootURL}}assets/frontend.js" defer></script>
+
+    {{content-for "head-footer"}}
+
+    <!-- Google Tag Manager -->
+    <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T488DZN');</script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+  <body>
+     <!--Google Tag Manager (noscript)-->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T488DZN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+     <!--End Google Tag Manager (noscript)-->
+    {{content-for "body"}}
+
+    {{content-for "body-footer"}}
+  </body>
+</html>
